@@ -2,7 +2,7 @@ import nltk
 from newspaper import Article
 
 # select a url of any news article
-url = 'https://www.indiatoday.in/india/story/heavy-rain-strong-winds-storm-bengaluru-latest-updates-may-24-1681398-2020-05-24'
+url = 'https://timesofindia.indiatimes.com/india/coronavirus-in-india-live-updates-indias-weekly-covid-toll-has-fallen-by-88-since-september-peak/liveblog/80620726.cms'
 article = Article(url)
 article.download()
 article.parse()
