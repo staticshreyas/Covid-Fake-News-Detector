@@ -1,3 +1,3 @@
-*.py linguistic-language=Python
+* linguistic-vendored
 
-*.html linguistic-language=HTML
+*.js linguistic-vendored=false
