@@ -32,10 +32,12 @@ def predict():
     article=Article(str(url),language="en")
     article.download()
     article.parse()
-    nltk.download('punkt')
+    #nltk.download('punkt')
     article.nlp()
 
     summary=article.summary
+
+    print(summary)
     
 	# Predicting the input
     pred = model.predict([summary])
